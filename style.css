@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 100px;
+  }
+  .search {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    margin: 0 15px;
+  }
+  .search input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .search button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .search button i {
+    font-size: 20px;
+    color: #222;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  .nav li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  .nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  .nav li a:hover {
+    color: #ff6600;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+  }
+  .user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .user span {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .user .cart {
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .user .cart span {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+  }
+  main {
+    padding: 20px 0;
+  }
+  .section {
+    background-color: #d06f00;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  .section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section .content .left {
+    display: flex;
+    align-items: center;
+  }
+  .section .content .left img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .section .content .right {
+    text-align: right;
+  }
+  .section .content .right button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .section .content .right button:hover {
+    background-color: #cc5500;
+  }
+  .section .content .left p {
+    margin-bottom: 0;
+  }
+  .section .content .left span {
+    color: #ff6600;
+  }
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .air{
+    height: 150px;
+    width: 300px;
+  }
+  .sho{
+    height: 150px;
+    width: 300px;
+  }
+  .wth{
+    height: 150px;
+    width: 300px;
+  }
+ .tsh{
+    padding: 50px;
+   
+  }
+  .pnt{
+    padding: 50px;
+  }
+  .hand{
+    padding: 50px;
+  }
+  .bag{
+    padding: 50px;
+  }
+  .Rc{
+    padding: 50px;
+  }
+  .pfm{
+    padding: 50px;
+  }
+  .lg{
+    padding: 70px;
+  }
+  .fan{
+    padding: 70px;
+  }
+  .pho{
+    padding: 70px;
+  }
+  .bal{
+    padding: 70px;
+  }
+  .joy{
+    padding: 50px;
+  }
+  .had{
+    padding: 50px;
+  }
+  .fac{
+    padding: 50px;
+  }
+.bike{
+    padding: 50px;
+}
+.car{
+    padding: 70px;
+}
